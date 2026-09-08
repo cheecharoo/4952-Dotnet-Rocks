@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/LectureSandbox/">
-    <Project Path="LectureSandbox/LectureSandbox.csproj" />
+    <Project Path="DotNetRocks/LectureSandbox.csproj" />
   </Folder>
   <Project Path="DotnetWeb/DotnetWeb.csproj" />
 </Solution>
