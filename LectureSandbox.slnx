@@ -1,6 +1,6 @@
 <Solution>
-  <Folder Name="/TestProj1/">
-    <Project Path="TestProj1/LectureSandbox.csproj" />
+  <Folder Name="/LectureSandbox/">
+    <Project Path="LectureSandbox/LectureSandbox.csproj" />
   </Folder>
   <Project Path="DotnetWeb/DotnetWeb.csproj" />
 </Solution>
