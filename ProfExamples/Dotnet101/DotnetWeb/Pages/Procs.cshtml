@@ -1,0 +1,13 @@
+﻿@page
+@model ProcsModel
+@{
+    ViewData["Title"] = "Processes";
+}
+<h1>@ViewData["Title"]</h1>
+
+@foreach (var proc in (System.Diagnostics.Process[])ViewData["procs"]!)
+{
+    <div>
+        <b>@proc.ProcessName</b> - ID: <a asp-page="/ProcDetails" asp-route-id="@proc.Id">@proc.Id</a>
+    </div>
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DotnetLibrary/DotnetLibrary.csproj" />
+  <Project Path="DotNetRocks/DotNetRocks.csproj" />
+  <Project Path="DotnetWeb/DotnetWeb.csproj" />
+</Solution>

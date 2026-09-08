@@ -1,0 +1,14 @@
+﻿@page
+@model ProcDetailsModel
+@{
+    ViewData["Title"] = "Process Details";
+
+    var proc = (System.Diagnostics.Process)ViewData["proc"]!;
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <p><b>@proc.ProcessName</b> - ID: @proc.Id</p>
+    <p>Start Time: @proc.StartTime</p>
+    <p>Total Processor Time: @proc.TotalProcessorTime</p>
+</div>
